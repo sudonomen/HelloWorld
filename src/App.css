@@ -4,12 +4,14 @@ details {
   font-size: 20px;
 }
 body {
-  font-size: 16px;
+  font-size: 20px;
 }
-input[type="text"] {
+input {
   font-size: inherit;
 }
-
+button {
+  font-size: inherit;
+}
 summary {
   
   background-color: rgba(179, 179, 179, 0.695);
