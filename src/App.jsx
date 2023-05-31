@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <input type="number" list='nl'/>
+    <input contentEditable={false} type="number" list='nl'/>
     <datalist id='nl'>
       <option value='1'></option>
       <option value='2'></option>
