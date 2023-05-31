@@ -11,7 +11,10 @@ function App() {
     <>
       <input type="color" id='cl'/>
       <datalist id="cl">
-       
+      <option value="#800000"></option>
+  <option value="#8B0000"></option>
+  <option value="#A52A2A"></option>
+  <option value="#DC143C"></option>
       </datalist>
       <details>
         <summary style={{width:'100vw'}}>Short description</summary>
