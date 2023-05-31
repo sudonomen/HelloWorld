@@ -13,6 +13,9 @@ body {
 input {
   font-size: inherit;
 }
+select {
+  font-size: inherit;
+}
 button {
   font-size: inherit;
 }
