@@ -47,7 +47,12 @@ function App() {
     <dt>Owlman</dt>
     <dd>A giant owl-like creature.</dd>
 </dl>
-
+<input type="time" list="popularHours" />
+<datalist id="popularHours">
+  <option value="12:00"></option>
+  <option value="13:00"></option>
+  <option value="14:00"></option>
+</datalist>
         <button onClick={()=>{setCount(!count)}}>Click</button>
         </>
   )
