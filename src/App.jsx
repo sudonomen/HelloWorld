@@ -7,6 +7,8 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 function App() {
   const [count, setCount] = useState(false)
 
+  window.scrollTo(0,1)
+
   return (
     <>
     <input contentEditable={false} type="number" list='nl'/>
