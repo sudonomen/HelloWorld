@@ -12,6 +12,12 @@ function App() {
   return (
     <>
     <label for="pet-select">Choose a pet:</label>
+    <dialog open>
+  <p>Greetings, one and all!</p>
+  <form method="dialog">
+    <button>OK</button>
+  </form>
+</dialog>
 
 <select multiple name="pets" id="pet-select">
     <option value="">--Please choose an option--</option>
