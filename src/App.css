@@ -1,11 +1,11 @@
 details {
   width: 100vh;
   background-color: rgb(237, 237, 237);
-
+  font-size: 20px;
 }
 
 summary {
-  font-size: 20px;
+  
   background-color: rgba(179, 179, 179, 0.695);
 }
 
