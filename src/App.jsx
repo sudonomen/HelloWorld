@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <input type="color" id='cl'/>
+      <input type="color" list='cl'/>
       <datalist id="cl">
       <option value="#800000"></option>
   <option value="#8B0000"></option>
