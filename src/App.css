@@ -3,6 +3,12 @@ details {
   background-color: rgb(237, 237, 237);
   font-size: 20px;
 }
+body {
+  font-size: 16px;
+}
+input[type="text"] {
+  font-size: inherit;
+}
 
 summary {
   
