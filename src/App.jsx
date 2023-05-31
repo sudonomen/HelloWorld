@@ -9,6 +9,11 @@ function App() {
 
   return (
     <>
+    <input type="number" list='nl'/>
+    <datalist id='nl'>
+      <option value='1'></option>
+      <option value='2'></option>
+    </datalist>
       <input type="color" list='cl'/>
       <datalist id="cl">
       <option value="#800000"></option>
