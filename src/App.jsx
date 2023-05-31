@@ -13,7 +13,7 @@ function App() {
     <>
     <label for="pet-select">Choose a pet:</label>
 
-<select name="pets" id="pet-select">
+<select multiple name="pets" id="pet-select">
     <option value="">--Please choose an option--</option>
     <option value="dog">Dog</option>
     <option value="cat">Cat</option>
