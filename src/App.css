@@ -12,3 +12,15 @@ summary {
 p{
   background-color: rgba(240, 248, 255, 0.585);
 }
+
+dl {
+  background-color: rgba(0, 0, 0, 0.136);
+}
+
+dt {
+  background-color: rgba(0, 0, 0, 0.179);
+}
+
+dd {
+  background-color:rgba(0, 0, 0, 0.348);
+}
