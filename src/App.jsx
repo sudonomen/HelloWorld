@@ -9,11 +9,37 @@ function App() {
 
   return (
     <>
-    <CSSTransition timeout={1000} in={count} classNames="fade">
-    <div className='app' >
-      Hello World
-    </div>
-    </CSSTransition>
+      <input type="color" id='cl'/>
+      <datalist id="cl">
+       
+      </datalist>
+      <details>
+        <summary style={{width:'100vw'}}>Short description</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
+      </details>
+      <details>
+        <summary style={{width:'100vw'}}>Short description</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
+      </details>
+      <details>
+        <summary style={{width:'100vw'}}>Short description</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
+      </details>
+      <details>
+        <summary style={{width:'100vw'}}>Short description</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
+      </details>
+      <dl>
+    <dt>Beast of Bodmin</dt>
+    <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+    <dt>Morgawr</dt>
+    <dd>A sea serpent.</dd>
+
+    <dt>Owlman</dt>
+    <dd>A giant owl-like creature.</dd>
+</dl>
+
         <button onClick={()=>{setCount(!count)}}>Click</button>
         </>
   )
