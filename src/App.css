@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 details {
   width: 100vh;
   background-color: rgb(237, 237, 237);
@@ -9,10 +13,18 @@ details {
 body {
   font-size: 16px;
   height: 100vh;
+  overflow: hidden;
 }
-input {
-  font-size: inherit;
+#root{
+  height: 100vh;
+  overflow: hidden;
 }
+
+html{
+  height: 100vh;
+  overflow: hidden;
+}
+
 select {
   font-size: inherit;
 }

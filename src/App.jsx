@@ -1,80 +1,81 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 function App() {
-  const [count, setCount] = useState(false)
+  const [count, setCount] = useState(false);
 
-  window.scrollTo(0,1)
+  window.scrollTo(0, 1);
 
   return (
     <>
-    <label for="pet-select">Choose a pet:</label>
-    <dialog open>
-  <p>Greetings, one and all!</p>
-  <form method="dialog">
-    <button>OK</button>
-  </form>
-</dialog>
+        <div class="bg-slate-950 h-20 text-white h-screen index-10">
+          <button class="bg-blue-500 p-2" onClick={()=>{alert()}}>Menu</button>
+       </div>
+     
 
-<select multiple name="pets" id="pet-select">
-    <option value="">--Please choose an option--</option>
-    <option value="dog">Dog</option>
-    <option value="cat">Cat</option>
-    <option value="hamster">Hamster</option>
-    <option value="parrot">Parrot</option>
-    <option value="spider">Spider</option>
-    <option value="goldfish">Goldfish</option>
-</select>
-    <input contentEditable={false} type="number" list='nl'/>
-    <datalist id='nl'>
-      <option value='1'></option>
-      <option value='2'></option>
-    </datalist>
-      <input type="color" list='cl'/>
-      <datalist id="cl">
-      <option value="#800000"></option>
-  <option value="#8B0000"></option>
-  <option value="#A52A2A"></option>
-  <option value="#DC143C"></option>
-      </datalist>
-      <details>
-        <summary style={{width:'100vw'}}>Short description</summary>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
-      </details>
-      <details>
-        <summary style={{width:'100vw'}}>Short description</summary>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
-      </details>
-      <details>
-        <summary style={{width:'100vw'}}>Short description</summary>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
-      </details>
-      <details>
-        <summary style={{width:'100vw'}}>Short description</summary>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla iusto fugiat rem ab repellat totam sint exercitationem sapiente aliquam quibusdam assumenda eveniet blanditiis quidem suscipit, quo et officia pariatur.</p>
-      </details>
-      <dl>
-    <dt>Beast of Bodmin</dt>
-    <dd>A large feline inhabiting Bodmin Moor.</dd>
+      <div class="absolute left-0 w-screen top-20 h-screen overflow-y-scroll overscroll-contain">
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+        <div class="even:bg-gray odd:bg-white h-1/2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque, voluptatum unde, repellendus iste ipsum omnis dignissimos ad
+          molestiae dolorem iure optio, quos earum odit est esse? Placeat, illum
+          animi.
+        </div>
+    
+    </div>
+    </>
 
-    <dt>Morgawr</dt>
-    <dd>A sea serpent.</dd>
-
-    <dt>Owlman</dt>
-    <dd>A giant owl-like creature.</dd>
-</dl>
-<input type="time" list="popularHours" />
-<datalist id="popularHours">
-  <option value="12:00"></option>
-  <option value="13:00"></option>
-  <option value="14:00"></option>
-</datalist>
-        <button onClick={()=>{setCount(!count)}}>Click</button>
-        </>
-  )
+  );
 }
 
-export default App
+export default App;
