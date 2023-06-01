@@ -12,16 +12,16 @@ details {
 }
 body {
   font-size: 16px;
-  height: 100vh;
+  height: 101vh;
   overflow: hidden;
 }
 #root{
-  height: 100vh;
+  height: 101vh;
   overflow: hidden;
 }
 
 html{
-  height: 100vh;
+  height: 101vh;
   overflow: hidden;
 }
 
